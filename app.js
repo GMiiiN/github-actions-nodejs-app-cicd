@@ -9,9 +9,9 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain');
   res.end('Hello, World!\n');
 });
-
+// 변경사항용 수정
 server.listen(port, hostname, () => {
-  console.log(`Node JS Server is  running at http://${hostname}:${port}/`);
+  console.log(`Node JS Server is running at http://${hostname}:${port}/`);
 });
 
 module.exports = server;
